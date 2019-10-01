@@ -1,0 +1,8 @@
+[user]
+	email = 3338808+liamness@users.noreply.github.com
+	name = Liam Duffy
+[core]
+	editor = vi
+	excludesfile = ~/.gitignore
+[pager]
+	branch = false
