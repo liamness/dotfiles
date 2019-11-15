@@ -1,4 +1,7 @@
 {
   "files.trimTrailingWhitespace": true,
-  "editor.tabSize": 2
+  "editor.tabSize": 2,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.autoReveal": false,
+  "javascript.updateImportsOnFileMove.enabled": "never",
 }
