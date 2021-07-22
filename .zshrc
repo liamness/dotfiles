@@ -9,9 +9,7 @@ alias cls'=printf "\033c"'
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# pip
-export PATH="$HOME/.local/bin:$PATH"
-# yarn
-export PATH="$(yarn global bin):$PATH"
-# anything else
-export PATH="$HOME/bin:$PATH"
+# Windows Terminal tab duplication
+precmd() {
+  printf "\e]9;9;%s\e\\" "$(wslpath -m "$PWD")"
+}

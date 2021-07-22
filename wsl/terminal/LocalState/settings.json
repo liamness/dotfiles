@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "list": [
+      {
+        "fontSize": 10,
+        "name": "Ubuntu-20.04",
+        "startingDirectory": "//wsl$/Ubuntu-20.04/home/liam"
+      }
+    ]
+  },
+  "tabSwitcherMode": "disabled"
+}
