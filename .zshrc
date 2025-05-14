@@ -6,8 +6,7 @@ plugins=(git)
 alias zshconfig="code ~/.zshrc"
 alias cls'=printf "\033c"'
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
+eval "$(~/.local/bin/mise activate zsh)"
 
 # Windows Terminal tab duplication
 precmd() {
